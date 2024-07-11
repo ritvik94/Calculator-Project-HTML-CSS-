@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0; /* This shows the amount the space around a text or object*/
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color:aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator{
+    background: rgba(0, 0, 0, 0.736);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.calculator form input{
+    border: 0px;
+    outline: 0px;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    background: transparent;
+    font-size: 20px;
+    margin: 10px;
+    cursor: pointer;
+    color: #fff;
+    box-shadow: -8px -8px 15px rgba(151, 149, 149, 0.736), 5px 5px 15px rgba(0, 0, 0, 0.736);
+}
+
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+
+form .display input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+}
+
+form input.equal{
+    width: 145px;
+}
+
+form input.operator{
+    color:rgb(128, 255, 0);
+}
+
